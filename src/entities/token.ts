@@ -122,7 +122,14 @@ export const WETH: WETHTokens = {
     18,
     'WOKT',
     'Wrapped OKT'
-  )
+  ),
+  [ChainId.FANTOM_TESTNET]: new Token(
+    ChainId.FANTOM_TESTNET,
+    '0xf1277d1Ed8AD466beddF92ef448A132661956621',
+    18,
+    'WFTM',
+    'Wrapped FTM'
+  ),
 }
 
 type Tokens = { [chainId in ChainId]: string }
@@ -137,7 +144,8 @@ export const USDT: Tokens = {
   [ChainId.HECO_MAINNET]: '',
   [ChainId.OKCHAIN_TEST]: '',
   [ChainId.HECO_TESTNET]: '',
-  [ChainId.MATIC_MAINNET]: ''
+  [ChainId.MATIC_MAINNET]: '',
+  [ChainId.FANTOM_TESTNET]: ''
 }
 export const BUSD: Tokens = {
   [ChainId.MAINNET]: '',
@@ -150,5 +158,6 @@ export const BUSD: Tokens = {
   [ChainId.HECO_MAINNET]: '',
   [ChainId.HECO_TESTNET]: '',
   [ChainId.OKCHAIN_TEST]: '',
-  [ChainId.MATIC_MAINNET]: ''
+  [ChainId.MATIC_MAINNET]: '',
+  [ChainId.FANTOM_TESTNET]: ''
 }

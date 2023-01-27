@@ -15,7 +15,8 @@ const CurrencyName: CurrencyName = {
   [ChainId.HECO_MAINNET]: 'HT',
   [ChainId.HECO_TESTNET]: 'HT',
   [ChainId.MATIC_MAINNET]: 'MATIC',
-  [ChainId.OKCHAIN_TEST]: 'OKT'
+  [ChainId.OKCHAIN_TEST]: 'OKT',
+  [ChainId.FANTOM_TESTNET]: 'FTM'
 }
 
 /**
